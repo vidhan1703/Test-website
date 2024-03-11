@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myformid" action="/myformaction">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name here" required maxlength="100">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Your e-mail here" required>
+        <input type="checkbox" name="honeypot" value="1" style="display:none !important" tabindex="-1" autocomplete="false">
+        <input type="submit" value="Submit">
+    </form>
+    <script src="myscripts.js"></script>
+</body>
+</html>
